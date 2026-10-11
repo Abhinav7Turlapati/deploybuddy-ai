@@ -1,0 +1,8 @@
+{
+  "name": "Remix DeployBuddy AI",
+  "description": "AI troubleshooting assistant for beginner developers to diagnose deployment and code errors with structured fixes and commands.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
