@@ -1,20 +1,96 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# DeployBuddy AI 🚀
 
-# Run and deploy your AI Studio app
+**Turn confusing developer errors into clear, actionable fixes.**
 
-This contains everything you need to run your app locally.
+DeployBuddy AI is an AI-powered troubleshooting assistant that helps students and early-career developers understand technical errors, identify possible causes, and find practical solutions.
 
-View your app in AI Studio: https://ai.studio/apps/44b50cbc-2c66-4d00-8515-299041aabca9
+## ✨ Features
 
-## Run Locally
+- **AI-powered diagnosis:** Analyze technical errors and receive explanations in beginner-friendly language.
+- **Actionable fixes:** Get troubleshooting steps and suggested terminal commands.
+- **Follow-up chat:** Ask additional questions to understand a diagnosis.
+- **Example errors:** Explore sample developer errors to learn troubleshooting techniques.
+- **Diagnostic history:** Review previous troubleshooting sessions.
+- **AWS adapter testing:** Test AWS-style API integration behavior using a local mock API.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- React
+- TypeScript
+- Vite
+- Node.js and Express
+- Google Gemini API
+- Vitest
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ⚙️ Run Locally
+
+### Prerequisites
+
+- Node.js and npm
+- A Google Gemini API key
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Abhinav7Turlapati/deploybuddy-ai.git
+   cd deploybuddy-ai
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file using `.env.example` as a reference, and configure your `GEMINI_API_KEY`.
+
+4. Start the application using the development command configured in `package.json`:
+
+   ```bash
+   npm run dev
+   ```
+
+## 🧪 Testing
+
+Run the test suite:
+
+```bash
+npm test
+```
+
+Run the TypeScript checks:
+
+```bash
+npm run lint
+```
+
+Build the application:
+
+```bash
+npm run build
+```
+
+## ☁️ AWS Integration Status
+
+The project includes an AWS-style API adapter and a local mock server for testing integration behavior. The mock setup helps validate successful responses, HTTP errors, malformed responses, and CORS behavior.
+
+**Important:** The current version uses Google Gemini for actual AI diagnosis. The AWS adapter has been tested locally with a mock API; a real AWS Bedrock or Lambda deployment is not yet configured.
+
+## 🎯 Who Is It For?
+
+- Students learning software development
+- Beginner developers debugging errors
+- Developers exploring Docker, Kubernetes, Spring Boot, and CI/CD
+- Anyone who wants technical errors explained more clearly
+
+## 👨‍💻 Author
+
+**Abhinav Turlapati**
+
+[GitHub Profile](https://github.com/Abhinav7Turlapati)
+
+---
+
+*Built to make debugging less intimidating and learning more practical.*
