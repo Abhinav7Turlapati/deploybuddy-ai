@@ -1,5 +1,6 @@
 # 🚀 DeployBuddy AI — AI-Powered Developer Troubleshooter
 
+<img width="960" height="436" alt="Screenshot 2026-10-11 141624" src="https://github.com/user-attachments/assets/4032d13c-501e-4833-8de6-8654ebc93aac" />
 
 DeployBuddy AI is an AI-powered developer troubleshooting application that transforms confusing deployment and runtime errors into understandable explanations, actionable troubleshooting steps, and useful terminal commands.
 
@@ -12,6 +13,7 @@ Designed for students, beginner developers, and early-career engineers, DeployBu
 💻 **GitHub Repository:** https://github.com/Abhinav7Turlapati/deploybuddy-ai
 
 ---
+
 
 ## 📌 Table of Contents
 
